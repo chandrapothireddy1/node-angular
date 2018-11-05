@@ -1,0 +1,23 @@
+<form novalidate #userForm = "ngForm">
+    id:<input type="text" name="userId" #userId = "ngModel" minlength="10" required [(ngModel)]="user.id" /><br />
+
+    
+
+    <span *ngIf="userId.touched && userId.invalid">
+        <span *ngIf="userId.errors&&userId.errors.required">
+        
+            please provide value.
+    
+        </span>
+        <span *ngIf="userId.errors&&userId.errors.minlength">
+        
+           minlength 10.
+    
+        </span>
+        
+    </span>
+
+    name:<input type="text" name="fname" #fname = "ngModel"  [(ngModel)]="user.firstname" /><br />
+ 
+    <input type="submit" value="login" [disabled]="userForm.invalid"  (click)="register()" />
+</form>
