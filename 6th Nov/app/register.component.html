@@ -1,0 +1,11 @@
+<menu></menu>
+<form novalidate #userForm = "ngForm">
+    <fieldset>
+      <legend>Personal information:</legend>
+      First name:<br>
+      <input type="text" name="firstname" #firstname = "ngModel" [(ngModel)]="user.fname"><br>
+      Last name:<br>
+      <input type="text" name="lastname" #lastname = "ngModel" [(ngModel)]="user.lname"><br><br>
+      <input type="submit" value="Submit" (click)="register()">
+    </fieldset>
+  </form>
