@@ -1,0 +1,13 @@
+<menu></menu>
+<form novalidate #editForm = "ngForm">
+    <fieldset>
+      <legend>Personal information:</legend>
+      First name:<br>
+      <input type="text" name="fname" #fname = "ngModel" required [(ngModel)]="user.firstname"><br>
+      
+      Last name:<br>
+      <input type="text" name="lname" #lname = "ngModel" required [(ngModel)]="user.lastname"><br><br>
+    
+      <input type="submit" value="Update" (click)="update()">
+    </fieldset>
+  </form>
