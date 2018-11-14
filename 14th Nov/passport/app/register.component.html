@@ -1,0 +1,22 @@
+<menu></menu>
+<form novalidate #registerForm = "ngForm">
+    <fieldset>
+      <legend>Personal information:</legend>
+      First name:<br>
+      <input type="text" name="firstname" disableInput #firstname = "ngModel" required [(ngModel)]="user.fname"><br>
+      <span *ngIf="registerForm.submitted && firstname.invalid">
+        <span *ngIf="firstname.errors && firstname.errors.required">
+          plese first name
+        </span>
+        </span>
+      Last name:<br>
+      <input type="text" name="lastname" #lastname = "ngModel" required [(ngModel)]="user.lname"><br><br>
+      <span *ngIf="lastname.touched && lastname.invalid">
+          <span *ngIf="lastname.errors && lastname.errors.required"> plese provide last name</span>
+          </span>
+         Username:<br> <input type="text" name="uname" #uname = "ngModel" required [(ngModel)]="user.username"><br><br>
+          Password:<br><input type="password" name="pwd" #pwd = "ngModel" required [(ngModel)]="user.password"><br><br>
+
+      <input type="submit" value="Submit" (click)="register()">
+    </fieldset>
+  </form>
