@@ -1,0 +1,720 @@
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url(http://www.kalyanmatrimony.com/resources/newlandingpage/fonts/Lato-Bold.ttf)
+}
+
+@font-face {
+    font-family: 'Lato-HeavyItalic';
+    src: url(http://www.kalyanmatrimony.com/resources/newlandingpage/fonts/Lato-HeavyItalic.ttf)
+}
+
+@font-face {
+    font-family: 'Lato-MediumItalic';
+    src: url(http://www.kalyanmatrimony.com/resources/newlandingpage/fonts/Lato-MediumItalic.ttf)
+}
+
+@font-face {
+    font-family: 'Roboto-Regular_2';
+    src: url(http://www.kalyanmatrimony.com/resources/newlandingpage/fonts/Roboto-Regular_2.ttf)
+}
+
+@font-face {
+    font-family: 'Roboto-Bold_3';
+    src: url(http://www.kalyanmatrimony.com/resources/newlandingpage/fonts/Roboto-Bold_3.ttf)
+}
+
+.logo {
+    padding: 20px;
+}
+
+.inpt-lgn {
+    margin-top: 30px;
+    margin-bottom:35px;
+}
+
+.user_name {
+    width: 200px;
+    border: 1px solid #545456;
+    border-radius: 5px;
+    padding -left: 10px;
+
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+.user_password {
+    width: 200px;
+    border: 1px solid #545456;
+    border-radius: 5px;
+    padding -left: 10px;
+
+    padding-bottom: 3px;
+    text-align: center
+}
+
+.home-page-btn {
+    background-color: #D10A10;
+    color: #fff;
+    margin-left: 12px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.remember-input label {
+    font-size: 12px;
+    min-height: auto;
+    line-height: initial;
+    padding-left: 15px;
+    color: #888;
+}
+
+.remember-input {
+    margin: 0;
+    line-height: initial;
+    position: absolute;
+    top: 38px;
+}
+
+.remember-input input[type=checkbox] {
+    margin-top: 0;
+    margin-left: -16px;
+    border-radius: 0;
+    position: absolute;
+}
+
+.checkbox label,
+.radio label {
+    min-height: 20px;
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.forgot-pass {
+    font-size: 12px;
+    color: #888;
+    position: absolute;
+    left: 40%;
+    /* top: 2; */
+    top: 85%
+}
+
+.row-sec {
+    background: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.row-secbrahmin {
+    background: url(../images/Iyengar-Matrimony_02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.row-seciyer {
+    background: url(../images/Iyer-Matrimony_02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.first-prt {
+    background: #d10a10;
+    margin-top: 8%;
+    margin-bottom: 5%;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    box-shadow: -4px 6px 19px 1px;
+}
+
+.sec-prt {
+    background: #ffffffe0;
+    background-color:rgba(255, 255, 255, 0.8);
+    margin-top: 8%;
+    margin-bottom: 5%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 4px 3px 20px 1px;
+}
+
+.first-prt h4 {
+    text-align: center;
+    font-family: 'Lato-Bold';
+    color: #ffe600;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.first-prt p {
+    font-family: 'Lato-MediumItalic' !important;
+    font-size: 20px;
+    color: #fff;
+}
+
+.first-prt h3 {
+    font-family: 'Lato-MediumItalic';
+    font-size: 20px;
+    color: #fff;
+}
+
+.main-list {
+    font-family: 'Lato-MediumItalic';
+    font-size: 20px;
+    color: #fff;
+    line-height: 35px;
+}
+
+.reg {
+    font-family: 'Lato-HeavyItalic';
+    font-size: 21px;
+    color: #ffe600;
+}
+
+.sec-prt h4 {
+    text-align: center;
+    font-family: 'Lato-Bold';
+    color: #545456;
+    font-size: 24px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-family: 'Roboto-Bold_3';
+}
+
+.form-strt {
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.form-control {
+    width: 320px;
+    border-color: #545456;
+}
+
+.form-strt div {
+    padding-bottom: 15px;
+
+}
+
+.no-input_field {
+    /*width: 19%;*/
+    width: 72px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    border-color: #545456;
+    padding: 0.375rem 0.75rem;
+}
+
+.phone-input_field {
+   /* width: 230px;*/
+    width: 244px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    border-color: #545456;
+    padding: 0.375rem 0.75rem;
+}
+
+.frm_password {
+    width: 320px;
+    border-color: #545456;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    border-color: #545456;
+    padding: 0.375rem 0.75rem;
+
+}
+
+.terms {
+    font-family: 'Roboto-Regular_2';
+    font-size: 13px;
+    padding-bottom: 2px;
+}
+
+.lst-sbmt-bttn {
+    width: 300px;
+    background-color: #D10A10;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Roboto-Regular_2';
+}
+
+.bttns-fnl {
+    padding-left: 20px;
+}
+.bttns-fnl input[type=checkbox]
+{
+	margin-top: 10px !important; 
+}
+
+
+
+.error-span {
+    color: #D10A10;
+    font-size: 14px;
+}
+.error_div{
+    line-height: initial;
+    position: absolute;
+    top: 52px;
+}
+.pop1 {
+    padding: 14px;
+}
+.spacer {
+    height: 45px;
+    margin-bottom: 9px;
+    background-color: #f8f8f8;
+}
+.text-center {
+    text-align: center!important;
+}
+.btn-4 {
+    border-radius: 50px;
+    border: 3px solid #be3e2a;
+    color: #be3e2a;
+    background-color: #fff;
+}
+.btnmrgn1 {
+    margin-top: 12px;
+}.btn-cust {
+    font-size: inherit;
+    padding: 15px 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 0;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+}
+.btn-4, .btn-cust {
+    transition: all .3s;
+}
+.btn-cust, .nav>li>a {
+    line-height: 1.42857143;
+}
+.btn-cust {
+    letter-spacing: 1px;
+}
+.modal.show .modal-dialog {
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+}
+ .modal.fade .modal-dialog {
+    transition: -webkit-transform .3s ease-out;
+    transition: transform .3s ease-out;
+    transition: transform .3s ease-out,-webkit-transform .3s ease-out;
+    /* transform: translate(0,-25%); */
+} 
+body {
+    font-family: Lato,Calibri,Arial,sans-serif;
+    color: #89867e;
+    line-height: 30px;
+}
+.modal-content {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .3rem;
+    outline: 0;
+}
+.btn-toolbar, .form-control {
+    display: block;
+}
+.btn-4:focus, .btn-4:hover {
+    border-color: #D10A10;
+    background: #D10A10;
+    color: #fff;
+}
+.btn-cust:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    transition: all .3s;
+}
+#forgetform .form-control
+{
+    width:100%;
+    border:1px solid #ccc;
+}
+.tooltip-inner {
+    max-width: 185px;
+    padding: 3px 8px;
+    color: #D10A10;
+    text-align: center;
+    background-color: #fff;
+    border-width: thin;
+    border-style: solid;
+    font-size: 12px;
+}
+.tooltip .arrow {
+
+    border-width: 0 5px 5px;
+    border-bottom-color: #D10A10;
+}
+.bs-tooltip-auto[x-placement^=bottom] .arrow::before, .bs-tooltip-bottom .arrow::before {
+    border-width: 0 5px 5px;
+    border-bottom-color: #D10A10;
+}    
+
+/* .icon-arrow-right:before {
+    content: "\e00d";
+}
+.btn-4, .btn-cust, .btn-cust:after, .btn:after {
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+}
+.btn-4a:before {
+    left: 130%;
+    top: 0;
+}
+.btn-4a:hover:before {
+    left: 80%;
+}
+
+.btn-4:before {
+    position: absolute;
+    height: 100%;
+    font-size: 126%;
+    line-height: 2.6;
+    color: #fff;
+    transition: all .3s;
+}
+.btn-cust:before {
+    font-family: icomoon;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+} */
+button#btncontinue:focus {
+    outline: none !important;
+}
+@media (min-width: 768px){
+.modal-dialog {
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+
+}
+.modal-header {
+    min-height: 16.43px;
+    padding: 15px;
+    border-bottom: 0 solid #e5e5e5;
+}
+
+.bs-tooltip-auto[x-placement^=top] .arrow::before, .bs-tooltip-top .arrow::before
+{border-top-color: #D10A10;}
+.bs-tooltip-auto[x-placement^=right] .arrow::before, .bs-tooltip-right .arrow::before{
+border-right-color: #D10A10;
+
+}
+.hidden-lable {
+   width: 0;
+   line-height: 0;
+   margin-top: 0;
+   max-width: 0;
+   color:transparent;
+   height: 0;
+   position: relative;
+   z-index: -1;
+  /* background: #fff;*/
+   margin-bottom: 0;
+}
+#overlay {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   filter: alpha(opacity=50);
+   -moz-opacity: .5;
+   -khtml-opacity: .5;
+   opacity: .6;
+   z-index: 1050;
+   background-color:#fff;
+   color:#D10A10;
+}
+#overlay{
+   height: 100%;
+}
+.spinner {
+   position: fixed;
+   top: 53%;
+   left: 50%;
+   margin-left: -50px;
+   margin-top: -50px;
+   z-index: 1234;
+   overflow: auto;
+}
+.spinner {
+   text-align: center;
+}
+.loginbackground {
+   border-radius: 10px;
+}
+@media screen and (max-device-width: 768px) and (min-device-width: 540px){
+.phone-input_field {
+    width: 60%;
+}
+}
+@media only screen and (max-width: 480px){
+.no-input_field {
+    width: 21% !important;
+}
+.phone-input_field {
+    width: 73% !important;
+}
+}
+
+
+@media screen and (min-device-width: 540px) and (max-device-width: 768px) {
+
+    .remember-input {
+        position: unset;
+        float: left;
+    }
+    .user_name {
+        margin-bottom: 10px;
+    }
+    .forgot-pass {
+        position: unset;
+        float: right;
+        padding-right: 114px;
+    }
+    .form-control {
+        width: 100%
+    }
+    .form-strt {
+        padding-left: 10px;
+    }
+    .no-input_field {
+        width: 20%
+    }
+    .phone-input_field {
+        width: 73%
+    }
+    .frm_password {
+        width: 100%
+    }
+    .lst-sbmt-bttn {
+        width: 100%
+    }
+    .first-prt p {
+        font-size: 17px;
+    }
+    .first-prt h3 {
+        font-size: 17px;
+    }
+    .main-list {
+        font-size: 17px;
+    }
+    .reg {
+        font-size: 19px;
+    }
+    .error_div{
+    top: 110px !important;
+	}
+}
+
+
+@media only screen and (max-width: 480px) {
+    .logo {
+        text-align: center;
+    }
+    .inpt-lgn {
+        margin-top: 17px;
+    }
+    .user_name {
+        width: 100%;
+    }
+    .user_password {
+        margin-bottom: 10px;
+        width: 100%
+    }
+    .remember-input {
+
+        position: unset;
+
+        display: block;
+
+        width: 35%;
+
+        float: left;
+    }
+    .forgot-pass {
+        position: unset;
+        display: block;
+        float: right;
+    }
+    .sbmt-inpt {
+        position: absolute;
+        top: 105%;
+        left: 34%;
+    }
+    .frgt-remb {
+        /* display: flex; */
+    }
+    .checkbox label,
+    .radio label {
+        /* padding-right: 66px; */
+    }
+    .row-sec {
+        margin-top: 48px
+    }
+    .first-prt {
+        padding-left: 15px;
+        margin-bottom: 0px;
+    }
+    .form-strt {
+        padding-left: 0px;
+    }
+    .sec-prt {
+        margin-top: 0px;
+    }
+    .form-control {
+        width: 100%
+    }
+    .phone-input_field {
+        width: 69%;
+    }
+    .no-input_field {
+        width: 26%;
+    }
+    .frm_password {
+        width: 100%
+    }
+    .bttns-fnl {
+        padding-left: 20px;
+    }
+    .lst-sbmt-bttn {
+        width: 100%
+    }
+    .first-prt p {
+        font-size: 18px
+    }
+    .first-prt h3 {
+        font-size: 18px
+    }
+    .main-list {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .sec-prt h4 {
+        padding-top: 20px;
+        padding-bottom: 0px;
+        
+    }
+    .error_div {
+    /*line-height: initial;
+    position: absolute;
+    top: 169px;*/
+    position: relative;
+	top: 0px !important;
+    margin-top: 30px;
+}
+
+
+}
+
+@media (min-device-width:769px) and (max-device-width:1024px) {
+        .form-strt {
+            padding-left: 10px;
+        }
+        .form-control {
+            width: 100%
+        }
+    .no-input_field{ width: 20%}
+    .phone-input_field{width: 75%}
+    .frm_password{width: 100%}
+    .lst-sbmt-bttn{width: 100%}
+    .sbmt-inpt{margin-left: 150px;
+    padding-top: 10px;}
+    .home-page-btn{margin-top: 15px;}
+    .forgot-pass{    left: 69%;
+    top: 48%;}
+    .error_div{
+   	top: 95px;
+	}
+
+    }
+    
+    
+.inline-lable{
+    font-size: 16px;
+    line-height: 14px;
+    display: block;
+    margin-bottom: 2px;
+    color: #333;
+}
+.forgender{
+    font-size: 16px;
+    padding-left: 20px;
+    line-height: 21px;
+    margin-bottom: 0px;
+    color: #333;
+}
+option.hidden {
+    display: none;
+}
+
+input[type=checkbox], input[type=radio] {
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 4px;
+}
+.isdisabled{
+    pointer-events: none;
+    background-color: #ececec;
+}
+.row-secbrahmin .first-prt ,.row-seciyer .first-prt{
+    background: #d10a1085;
+    margin-top: 8%;
+    margin-bottom: 5%;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: -4px 6px 19px 1px;
+}
+ 
+.row-seciyer .sec-prt,.row-secbrahmin  .sec-prt {
+    background: #ffffffe0;
+    margin-top: 8%;
+    margin-bottom: 5%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    box-shadow: 4px 3px 20px 1px;
+}
+ 
+.row-seciyer .first-prt h4 ,.row-secbrahmin .first-prt h4{
+    font-size:32px;
+}
