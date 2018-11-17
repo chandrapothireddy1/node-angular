@@ -1,0 +1,72 @@
+<div class="container-fluid row-sec">
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-6 first-prt">
+            <h4>TELUGU MATRIMONY</h4>
+            <p>The New Generation Matrimony Portal for the Telugu community.</p>
+
+            <h3>
+                Why Register with
+                <u>PolepalliMarriage</u>
+            </h3>
+
+            <ul class="main-list">
+                <li>Lakhs of Tamil Brides &amp; Grooms</li>
+                <li>Verified Profiles</li>
+                <li>Secure &amp; Safe</li>
+                <li>Intelligent Compatibility Meter</li>
+                <li>Best-in-class, Built-in Search Engine</li>
+                <li>1000s of New Profiles for Top Telugu Communities</li>
+            </ul>
+
+            <p>
+                <span class="reg">Register FREE</span> to Find Your Life Partner
+            </p>
+            <h1 class="reg">Find lakhs of Telugu profiles of brides and grooms. Register now and find your perfect match.</h1>
+        </div>
+        <div class=" col-md-4 sec-prt">
+            <h4>Register FREE</h4>
+            <form class="form-strt" #registerform="ngForm" role="form" id="registerForm" name="registerForm">
+                <div>
+                    <input type="text" placeholder="Enter Your Name" class="form-control" data-toggle="tooltip" data-placement="bottom" autocomplete="off"
+                        title="Name required" id="name" name="name" [(ngModel)]="user.name" />
+
+                </div>
+
+                <div>
+                    <input type="text" placeholder="Enter User Name" class="form-control" data-toggle="tooltip" data-placement="bottom" autocomplete="off"
+                        title="UserName required" id="username" name="username" [(ngModel)]="user.username" />
+
+                </div>
+
+                <div>
+                    <input type="password" placeholder="Enter Password" class="form-control" data-toggle="tooltip" data-placement="bottom" autocomplete="off"
+                        title="Password required" id="password" name="password" [(ngModel)]="user.password" />
+
+                </div>
+
+                <div id="divprofilecreatedfor">
+                    <input type="text" placeholder="Enter relation" class="form-control" data-toggle="tooltip" data-placement="bottom" autocomplete="off"
+                        title="relation required" id="relation" name="relation" [(ngModel)]="user.relation" />
+                </div>
+                <div id="divgender">
+                    <input type="text" placeholder="Enter gender" class="form-control" data-toggle="tooltip" data-placement="bottom" autocomplete="off"
+                        title="gender required" id="gender" name="gender" [(ngModel)]="user.gender" />
+                </div>
+
+                <div id="divmothertongue">
+                    <input type="text" placeholder="Enter language" class="form-control" data-toggle="tooltip" data-placement="bottom" autocomplete="off"
+                        title="language required" id="language" name="language" [(ngModel)]="user.language" />
+                </div>
+
+                <div>
+                    <button type="button" class="btn lst-sbmt-bttn" id="submitbutton" (click)="register()">SUBMIT</button>
+
+                    
+                </div>
+            </form>
+
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+</div>

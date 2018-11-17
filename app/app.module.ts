@@ -1,21 +1,29 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { RouterModule } from '@angular/router';
+
+import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home.component';
-import { ContactComponent } from './contact.component';
-import { ClientsComponent } from './clients.component';
-import { LoginComponent } from './login.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
+import { FormsModule } from "@angular/forms"
+import { HttpClientModule } from '@angular/common/http';
+import { UserService } from './common/user.service';
+import { RouterModule } from '@angular/router';
 import { routes } from './app.routes';
+import { DashboardComponent } from './dashboard.component';
+import { PageComponent } from './page.component';
+import { LocationStrategy, HashLocationStrategy } from '@angular/common';
+import { AdminModule } from './admin/admin.module';
 
 @NgModule({
   declarations: [
-    AppComponent,HomeComponent,ContactComponent,ClientsComponent,LoginComponent
+    AppComponent,LoginComponent,RegisterComponent,DashboardComponent,PageComponent
   ],
   imports: [
-    BrowserModule,RouterModule.forRoot(routes)
+    BrowserModule,AdminModule,
+    AppRoutingModule,FormsModule,HttpClientModule,RouterModule.forRoot(routes)
   ],
-  providers: [],
+  providers: [UserService,{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

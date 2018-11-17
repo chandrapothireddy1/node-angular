@@ -1,0 +1,16 @@
+<form novalidate #adminregisterForm = "ngForm" method='post'  encType="multipart/form-data">
+    <fieldset>
+      <legend>Personal information:</legend>
+      First name:<br>
+      <input type="text" name="firstname" #firstname = "ngModel" required [(ngModel)]="admin.fname"><br>
+      
+      Last name:<br>
+      <input type="text" name="lastname" #lastname = "ngModel" required [(ngModel)]="admin.lname"><br><br>
+      
+         Username:<br> <input type="text" name="uname" #uname = "ngModel" required [(ngModel)]="admin.username"><br><br>
+          Password:<br><input type="password" name="pwd" #pwd = "ngModel" required [(ngModel)]="admin.password"><br><br>
+
+          
+      <input type="submit" value="Submit" (click)="register()">
+    </fieldset>
+  </form>

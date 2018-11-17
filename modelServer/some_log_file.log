@@ -1,0 +1,179 @@
+{"level":"info","message":"server is listening on port 4200","timestamp":"2018-11-17T06:19:25.581Z"}
+{"level":"info","message":"55eceedd-29a0-44b9-a91f-c809d3bccd96 GET /bootstrap.css.map 404 14.550 ms","timestamp":"2018-11-17T06:26:33.383Z"}
+{"level":"info","message":"6ada8bc6-85fa-40b8-85c9-131561bb1fb4 POST /api/registerUser 200 452.634 ms","timestamp":"2018-11-17T06:27:11.513Z"}
+{"duration":"4ms","level":"info","message":"Login time","timestamp":"2018-11-17T06:42:26.489Z"}
+{"level":"info","message":"c8f2376b-2788-4810-a55e-cc84ccf3725e POST /api/loginUser 500 488.514 ms","timestamp":"2018-11-17T06:42:26.974Z"}
+{"level":"info","message":"40b5dddf-1067-4a7d-9bbb-8c16f922d499 POST /api/registerUser 200 55.677 ms","timestamp":"2018-11-17T06:43:14.333Z"}
+{"duration":"0ms","level":"info","message":"Login time","timestamp":"2018-11-17T06:44:04.668Z"}
+{"level":"info","message":"d931b1dd-e3ab-424e-9673-67bf756e1ecf POST /api/loginUser 500 22.085 ms","timestamp":"2018-11-17T06:44:04.698Z"}
+{"duration":"0ms","level":"info","message":"Login time","timestamp":"2018-11-17T06:44:07.658Z"}
+{"level":"info","message":"daad3ea6-e652-4ce6-ab8f-3f4b5b037d1b POST /api/loginUser 500 33.279 ms","timestamp":"2018-11-17T06:44:07.681Z"}
+{"duration":"0ms","level":"info","message":"Login time","timestamp":"2018-11-17T06:44:11.161Z"}
+{"level":"info","message":"e004d4d3-bb07-43ce-92f5-45d68869a3e7 POST /api/loginUser 500 11.096 ms","timestamp":"2018-11-17T06:44:11.192Z"}
+{"duration":"0ms","level":"info","message":"Login time","timestamp":"2018-11-17T06:44:11.433Z"}
+{"level":"info","message":"321527c7-bd61-44ef-8a29-2d192612f470 POST /api/loginUser 500 11.941 ms","timestamp":"2018-11-17T06:44:11.462Z"}
+{"duration":"1ms","level":"info","message":"Login time","timestamp":"2018-11-17T06:44:11.684Z"}
+{"level":"info","message":"01817dcd-0750-44db-9ea7-2755b659cefa POST /api/loginUser 500 10.161 ms","timestamp":"2018-11-17T06:44:11.708Z"}
+{"level":"info","message":"1634e786-409d-4d19-a193-a1d2bddcdd03 POST /api/registerUser 200 6.382 ms","timestamp":"2018-11-17T06:46:21.523Z"}
+{"duration":"0ms","level":"info","message":"Login time","timestamp":"2018-11-17T06:46:42.978Z"}
+{"level":"info","message":"65a0c226-a800-4691-8d8e-38e5a6815961 POST /api/loginUser 200 17.747 ms","timestamp":"2018-11-17T06:46:42.988Z"}
+{"level":"info","message":"f708419a-17b6-4feb-8da7-a19f770f9aa7 GET /bootstrap.css.map 404 1.102 ms","timestamp":"2018-11-17T06:47:16.540Z"}
+{"duration":"1ms","level":"info","message":"Login time","timestamp":"2018-11-17T06:47:42.821Z"}
+{"level":"info","message":"722ddeb4-7164-4e9e-86f3-ee4bf585f9e5 POST /api/loginUser 200 10.920 ms","timestamp":"2018-11-17T06:47:42.831Z"}
+{"level":"info","message":"8f7d2f4a-99fe-4738-ba36-8cad4cebcb2d GET /bootstrap.css.map 404 1.288 ms","timestamp":"2018-11-17T06:52:57.680Z"}
+{"duration":"0ms","level":"info","message":"Login time","timestamp":"2018-11-17T06:54:49.834Z"}
+{"level":"info","message":"fba6cd17-7673-41a0-b213-a68bc89cb557 POST /api/loginUser 200 9.723 ms","timestamp":"2018-11-17T06:54:49.847Z"}
+{"level":"info","message":"5106dfa4-ad4d-4848-bbc6-da8178fa5c69 GET /bootstrap.css.map 404 10.157 ms","timestamp":"2018-11-17T06:55:23.845Z"}
+{"duration":"0ms","level":"info","message":"Login time","timestamp":"2018-11-17T06:55:38.365Z"}
+{"level":"info","message":"6a5afe0f-2641-479e-a68a-6611b654572c POST /api/loginUser 200 13.222 ms","timestamp":"2018-11-17T06:55:38.377Z"}
+{"level":"info","message":"server is listening on port 4200","timestamp":"2018-11-17T07:31:43.942Z"}
+{"level":"info","message":"60c18e20-c190-43a6-be69-43f188911eb5 GET /sockjs-node/info?t=1542439903766 404 9.187 ms","timestamp":"2018-11-17T07:31:44.067Z"}
+{"level":"info","message":"3d34a379-9e8d-4814-9cdb-d0d3e4865ab9 GET /sockjs-node/info?t=1542439920150 404 2.233 ms","timestamp":"2018-11-17T07:32:00.217Z"}
+{"level":"info","message":"617a4661-0310-49f4-98be-4a05c4f6ae1a GET /sockjs-node/info?t=1542439952398 404 3.638 ms","timestamp":"2018-11-17T07:32:32.531Z"}
+{"level":"info","message":"f354b92e-28f7-4827-8ce2-facd8955c520 GET /sockjs-node/info?t=1542440016546 404 1.061 ms","timestamp":"2018-11-17T07:33:36.599Z"}
+{"level":"info","message":"55d01007-d068-4799-b40c-81a45c936db8 POST /api/registerAdmin 200 737.131 ms","timestamp":"2018-11-17T07:34:00.238Z"}
+{"level":"info","message":"server is listening on port 4200","timestamp":"2018-11-17T09:05:39.813Z"}
+{"level":"info","message":"3a120e2a-7873-4819-93a4-794820a2cf3b POST /api/registerAdmin 500 45.345 ms","timestamp":"2018-11-17T09:08:29.089Z"}
+{"level":"info","message":"server is listening on port 4200","timestamp":"2018-11-17T09:09:55.543Z"}
+{"level":"info","message":"server is listening on port 4200","timestamp":"2018-11-17T09:09:59.774Z"}
+{"level":"info","message":"a8195080-ddac-48e0-aa72-9f5aa07f8685 POST /api/registerAdmin 500 23.311 ms","timestamp":"2018-11-17T09:10:40.212Z"}
+{"level":"info","message":"server is listening on port 4200","timestamp":"2018-11-17T09:12:09.400Z"}
+{"level":"info","message":"cf06b318-1c10-486e-948d-e9269b38ce68 POST /api/registerAdmin 500 7.816 ms","timestamp":"2018-11-17T09:12:39.592Z"}
+{"level":"info","message":"server is listening on port 4200","timestamp":"2018-11-17T09:13:39.919Z"}
+{"level":"info","message":"42332e1b-6d7f-455f-ab17-42a1f7caea49 POST /api/registerAdmin 500 67.718 ms","timestamp":"2018-11-17T09:13:42.924Z"}
+{"level":"info","message":"server is listening on port 4200","timestamp":"2018-11-17T09:15:13.798Z"}
+{"level":"info","message":"server is listening on port 4200","timestamp":"2018-11-17T09:15:19.618Z"}
+{"level":"info","message":"722e8846-bfbe-42c0-8107-2f1be9670800 POST /api/registerAdmin 500 7.988 ms","timestamp":"2018-11-17T09:15:27.301Z"}
+{"level":"info","message":"server is listening on port 4200","timestamp":"2018-11-17T09:16:32.628Z"}
+{"level":"info","message":"ac556b92-a773-417c-b2a3-51669a91c847 POST /api/registerAdmin 500 185.108 ms","timestamp":"2018-11-17T09:16:48.977Z"}
+{"level":"info","message":"server is listening on port 4200","timestamp":"2018-11-17T09:17:39.386Z"}
+{"level":"info","message":"af16cca2-3e5d-40ff-b201-1061f1940be2 POST /api/registerAdmin 500 11.036 ms","timestamp":"2018-11-17T09:17:44.069Z"}
+{"level":"info","message":"server is listening on port 4200","timestamp":"2018-11-17T09:20:53.368Z"}
+{"level":"info","message":"5bb60f8b-1e5a-4c4b-b5d7-fc719894a1ff POST /api/registerAdmin 500 9.197 ms","timestamp":"2018-11-17T09:21:11.112Z"}
+{"level":"info","message":"server is listening on port 4200","timestamp":"2018-11-17T09:22:56.721Z"}
+{"level":"info","message":"6a17e404-b689-4e10-8efc-dd083401f675 POST /api/registerAdmin 500 40.095 ms","timestamp":"2018-11-17T09:25:00.913Z"}
+{"level":"info","message":"server is listening on port 4200","timestamp":"2018-11-17T09:32:13.576Z"}
+{"level":"info","message":"d3ea4bb4-8e52-454b-b64c-77aeeddda53f POST /api/registerAdmin 500 40.439 ms","timestamp":"2018-11-17T09:33:26.724Z"}
+{"level":"info","message":"b599a5e5-47f6-4a4f-b0a0-08243dee0285 POST /api/registerAdmin 500 3.616 ms","timestamp":"2018-11-17T09:33:45.405Z"}
+{"level":"info","message":"server is listening on port 4200","timestamp":"2018-11-17T09:34:38.580Z"}
+{"duration":"14ms","level":"info","message":"Login time","timestamp":"2018-11-17T09:53:57.735Z"}
+{"level":"info","message":"6328eced-9fb6-432c-bb2c-540a1351f456 POST /api/loginAdmin 200 160.016 ms","timestamp":"2018-11-17T09:53:57.876Z"}
+{"level":"info","message":"564b9b1c-3965-4fa8-924d-166cb5a6633f GET /bootstrap.css.map 404 4.022 ms","timestamp":"2018-11-17T09:56:09.836Z"}
+{"level":"info","message":"server is listening on port 4200","timestamp":"2018-11-17T09:56:23.552Z"}
+{"level":"info","message":"990b71bc-4f7c-4cce-bded-841d732ea0a8 GET /bootstrap.css.map 404 15.599 ms","timestamp":"2018-11-17T09:56:36.365Z"}
+{"duration":"3ms","level":"info","message":"Login time","timestamp":"2018-11-17T09:56:45.519Z"}
+{"level":"info","message":"35116487-5e4c-405a-bc81-8a59f14fdf5e POST /api/loginAdmin 200 59.569 ms","timestamp":"2018-11-17T09:56:45.577Z"}
+{"level":"info","message":"acd01727-2a38-4b92-a709-ccaf3040ff52 GET /api/getUsersadmin 200 48.848 ms","timestamp":"2018-11-17T09:56:45.697Z"}
+{"level":"info","message":"server is listening on port 4200","timestamp":"2018-11-17T09:59:23.861Z"}
+{"level":"info","message":"1fad7fc9-1b57-4839-b003-c2f3c8d858f7 GET /api/getUsersadmin 304 144.690 ms","timestamp":"2018-11-17T09:59:55.316Z"}
+{"level":"info","message":"server is listening on port 4200","timestamp":"2018-11-17T10:00:30.947Z"}
+{"level":"info","message":"6dde6f6c-5e37-4076-947b-e84e65947f2a GET /api/getUsersadmin 500 21.486 ms","timestamp":"2018-11-17T10:00:40.313Z"}
+{"level":"info","message":"server is listening on port 4200","timestamp":"2018-11-17T10:01:08.495Z"}
+{"level":"info","message":"c3b87953-3d89-4255-88f0-aad5688a19f2 GET /api/getUsersadmin 200 105.663 ms","timestamp":"2018-11-17T10:01:13.890Z"}
+{"duration":"1ms","level":"info","message":"Login time","timestamp":"2018-11-17T10:01:35.382Z"}
+{"level":"info","message":"2c6ee46c-f936-400b-9478-df4363e87068 POST /api/loginAdmin 200 5246.425 ms","timestamp":"2018-11-17T10:01:35.409Z"}
+{"level":"info","message":"955b5653-2deb-40a1-af6a-e24d8645bafd GET /api/getUsersadmin 304 959.795 ms","timestamp":"2018-11-17T10:01:36.420Z"}
+{"level":"info","message":"server is listening on port 4200","timestamp":"2018-11-17T10:01:58.637Z"}
+{"level":"info","message":"621aec57-c3c3-425a-b0fe-ad846435aaac GET /api/getUsersadmin 304 91.832 ms","timestamp":"2018-11-17T10:02:14.285Z"}
+{"duration":"2ms","level":"info","message":"Login time","timestamp":"2018-11-17T10:02:41.997Z"}
+{"level":"info","message":"33058dd3-f82e-4f4f-bd5c-aba32a938eac POST /api/loginAdmin 200 5147.192 ms","timestamp":"2018-11-17T10:02:42.022Z"}
+{"level":"info","message":"975295ce-3e1a-457f-85f8-75407e7c774f GET /api/getUsersadmin 304 957.486 ms","timestamp":"2018-11-17T10:02:43.034Z"}
+{"level":"info","message":"server is listening on port 4200","timestamp":"2018-11-17T10:05:40.425Z"}
+{"level":"info","message":"ddf481df-4617-4c81-8a43-fb387222ebf5 GET /api/getUsersadmin 304 107.906 ms","timestamp":"2018-11-17T10:05:49.806Z"}
+{"duration":"2ms","level":"info","message":"Login time","timestamp":"2018-11-17T10:05:56.414Z"}
+{"level":"info","message":"1daca83e-28a3-450f-bd82-55acca0b34c1 POST /api/loginAdmin 200 33.667 ms","timestamp":"2018-11-17T10:05:56.448Z"}
+{"level":"info","message":"6d59aa04-f5d3-4bf3-b084-2b4f08ff16bc GET /api/getUsersadmin 304 13.600 ms","timestamp":"2018-11-17T10:05:56.563Z"}
+{"level":"info","message":"server is listening on port 4200","timestamp":"2018-11-17T10:06:13.812Z"}
+{"duration":"4ms","level":"info","message":"Login time","timestamp":"2018-11-17T10:06:33.700Z"}
+{"level":"info","message":"96b623b2-677d-40c3-9b8a-8118c72c5507 POST /api/loginAdmin 200 58.173 ms","timestamp":"2018-11-17T10:06:33.760Z"}
+{"level":"info","message":"fe6c33d6-8f53-4b3c-a257-6cf49a2b9fa4 GET /api/getUsersadmin 304 30.076 ms","timestamp":"2018-11-17T10:06:33.843Z"}
+{"level":"info","message":"server is listening on port 4200","timestamp":"2018-11-17T10:07:18.029Z"}
+{"level":"info","message":"6a5e57fb-fde3-4dea-a87b-4244e0544f72 GET /api/getUsersadmin 304 94.762 ms","timestamp":"2018-11-17T10:07:23.298Z"}
+{"duration":"1ms","level":"info","message":"Login time","timestamp":"2018-11-17T10:07:32.925Z"}
+{"level":"info","message":"bcaab011-b994-460a-ad2f-a8d4b9c6ee17 POST /api/loginAdmin 200 33.641 ms","timestamp":"2018-11-17T10:07:32.966Z"}
+{"level":"info","message":"567f2bfa-e8ee-4503-a332-fac59a2b43bb GET /api/getUsersadmin 304 19.512 ms","timestamp":"2018-11-17T10:07:33.067Z"}
+{"level":"info","message":"server is listening on port 4200","timestamp":"2018-11-17T10:08:19.098Z"}
+{"level":"info","message":"384a9d90-72a4-4b2a-80cf-f7d947f2ca9d GET /api/getUsersadmin 304 94.291 ms","timestamp":"2018-11-17T10:08:24.714Z"}
+{"level":"info","message":"server is listening on port 4200","timestamp":"2018-11-17T10:13:57.414Z"}
+{"level":"info","message":"server is listening on port 4200","timestamp":"2018-11-17T10:17:21.734Z"}
+{"level":"info","message":"d4e55e27-0b38-4ef4-9a1d-63e67b0b6838 GET /bootstrap.css.map 404 15.155 ms","timestamp":"2018-11-17T10:19:42.745Z"}
+{"duration":"4ms","level":"info","message":"Login time","timestamp":"2018-11-17T10:19:50.445Z"}
+{"level":"info","message":"605c5fb8-1970-4aa6-9ec5-27b9acbe0b7d POST /api/loginAdmin 200 58.165 ms","timestamp":"2018-11-17T10:19:50.516Z"}
+{"level":"info","message":"d8dd77c3-045f-45d5-b8f6-36c28bb1fb4e GET /api/getUsersadmin 304 31.193 ms","timestamp":"2018-11-17T10:19:50.644Z"}
+{"level":"info","message":"3e81e57c-a307-4936-a432-508ea76ed2de GET /api/logout 200 0.718 ms","timestamp":"2018-11-17T10:19:54.424Z"}
+{"level":"info","message":"a65344af-756b-4b78-9165-0d845bd5caf5 GET /api/logout 304 1.223 ms","timestamp":"2018-11-17T10:24:48.026Z"}
+{"level":"info","message":"1f3f87f1-da8f-4e62-838b-7f8bdb357485 GET /api/getUsersadmin 304 244.728 ms","timestamp":"2018-11-17T10:25:00.999Z"}
+{"level":"info","message":"25e044f2-8047-4f9c-83e6-8eb70486a073 GET /bootstrap.css.map 404 1.019 ms","timestamp":"2018-11-17T10:25:02.342Z"}
+{"duration":"1ms","level":"info","message":"Login time","timestamp":"2018-11-17T10:25:12.133Z"}
+{"level":"info","message":"3a5755ed-548a-4b2c-8107-2c18795eccf6 POST /api/loginAdmin 200 11.794 ms","timestamp":"2018-11-17T10:25:12.141Z"}
+{"level":"info","message":"1900de27-83d7-4a2d-9bd7-232b6fa0919b GET /api/getUsersadmin 304 10.734 ms","timestamp":"2018-11-17T10:25:12.196Z"}
+{"level":"info","message":"0b92c8aa-e34d-4824-bd97-86d8167d29e3 GET /api/logout 304 0.874 ms","timestamp":"2018-11-17T10:25:14.532Z"}
+{"level":"info","message":"server is listening on port 3200","timestamp":"2018-11-17T10:33:41.729Z"}
+{"duration":"5ms","level":"info","message":"Login time","timestamp":"2018-11-17T10:53:18.582Z"}
+{"level":"info","message":"e4f9bef1-ec51-4030-85e1-cb0c0e784f4e POST /api/loginAdmin 200 91.203 ms","timestamp":"2018-11-17T10:53:18.679Z"}
+{"level":"info","message":"f13f6e33-47c8-4759-941a-b0974dfaa2d2 GET /api/listusersPage/1/2 404 4.352 ms","timestamp":"2018-11-17T10:53:18.769Z"}
+{"level":"info","message":"server is listening on port 3200","timestamp":"2018-11-17T10:57:18.246Z"}
+{"level":"info","message":"c38e9ffc-4ffc-42a8-954b-82ba93dea0a5 GET /api/logout 200 7.246 ms","timestamp":"2018-11-17T10:57:23.071Z"}
+{"duration":"3ms","level":"info","message":"Login time","timestamp":"2018-11-17T10:57:28.669Z"}
+{"level":"info","message":"d440b3eb-7749-4f28-b01e-755cd35799ed POST /api/loginAdmin 200 59.438 ms","timestamp":"2018-11-17T10:57:28.736Z"}
+{"level":"info","message":"0a055f91-6181-4b3b-b750-9693a8fe5b92 GET /api/listusersPage/1/2 200 163.550 ms","timestamp":"2018-11-17T10:57:28.998Z"}
+{"level":"info","message":"0570e3db-bb05-446d-8b03-9704b6057a48 GET /bootstrap.css.map 404 5.049 ms","timestamp":"2018-11-17T10:57:54.934Z"}
+{"level":"info","message":"0fcfa660-49c4-46d0-bf50-bd63e0405b4c GET /api/listusersPage/1/2 304 11.056 ms","timestamp":"2018-11-17T11:01:50.484Z"}
+{"level":"info","message":"7a2dc14b-e4dc-42f5-a088-c4a8e027251d GET /bootstrap.css.map 404 3.214 ms","timestamp":"2018-11-17T11:01:51.570Z"}
+{"level":"info","message":"64ae7400-37fd-4298-b185-9ded642177ea GET /api/listusersPage/2/2 200 9.156 ms","timestamp":"2018-11-17T11:01:54.239Z"}
+{"level":"info","message":"c993eabb-3840-4fcf-8c2f-7b7b459a9fde GET /api/listusersPage/3/2 200 6.673 ms","timestamp":"2018-11-17T11:01:55.348Z"}
+{"level":"info","message":"4e73ae84-ca32-4a4a-ae2e-92e51ed997d3 GET /api/listusersPage/4/2 200 3.888 ms","timestamp":"2018-11-17T11:01:56.239Z"}
+{"level":"info","message":"53115c8a-9ca1-4b06-be1a-cf66c6a265e3 GET /api/listusersPage/3/2 304 5.083 ms","timestamp":"2018-11-17T11:01:58.621Z"}
+{"level":"info","message":"d6d721f6-5840-4628-adb2-7b809ac1ef68 GET /api/listusersPage/1/2 304 5.578 ms","timestamp":"2018-11-17T11:01:59.959Z"}
+{"level":"info","message":"564fc821-c563-4afc-819f-9a74c008f9c1 GET /api/listusersPage/4/2 304 4.880 ms","timestamp":"2018-11-17T11:02:01.618Z"}
+{"level":"info","message":"fc031c5c-0af6-4cc1-aae8-2732f7bb4caf GET /api/listusersPage/3/2 304 5.243 ms","timestamp":"2018-11-17T11:02:02.998Z"}
+{"level":"info","message":"b3356f33-a1f5-4bb0-88af-00fa04547964 GET /api/listusersPage/1/2 304 4.494 ms","timestamp":"2018-11-17T11:02:03.770Z"}
+{"level":"info","message":"d0ebc872-c1be-403a-8c3a-4b63134a652f GET /api/listusersPage/2/2 304 6.590 ms","timestamp":"2018-11-17T11:02:18.176Z"}
+{"level":"info","message":"44905d53-cd96-4308-bb5e-887f11eb9962 GET /api/listusersPage/3/2 304 7.814 ms","timestamp":"2018-11-17T11:02:18.987Z"}
+{"level":"info","message":"b159ba83-1221-4778-8fc1-e121ac904a43 GET /api/listusersPage/4/2 304 4.433 ms","timestamp":"2018-11-17T11:02:19.965Z"}
+{"level":"info","message":"9d6e054a-81eb-4f6d-ab9e-55f776e224ec GET /api/listusersPage/1/2 304 6.531 ms","timestamp":"2018-11-17T11:02:23.031Z"}
+{"level":"info","message":"682cf6f9-497e-4cf2-a4d0-678a529e9fbc GET /api/listusersPage/4/2 304 4.294 ms","timestamp":"2018-11-17T11:02:24.206Z"}
+{"level":"info","message":"26ce3fe9-d7ab-4f49-86a5-b4e3bae46ef4 GET /api/listusersPage/3/2 304 5.423 ms","timestamp":"2018-11-17T11:02:25.376Z"}
+{"level":"info","message":"6eb0db22-270a-4356-a073-f94fa68589da GET /api/listusersPage/4/2 304 5.870 ms","timestamp":"2018-11-17T11:02:26.436Z"}
+{"level":"info","message":"d3345e73-6b68-465e-81ae-ab04909ecc3e GET /api/listusersPage/1/2 304 8.959 ms","timestamp":"2018-11-17T11:02:27.581Z"}
+{"level":"info","message":"f762d0d9-1c20-4265-8bd1-394cbd4a2ca8 GET /api/listusersPage/2/2 304 5.372 ms","timestamp":"2018-11-17T11:02:28.810Z"}
+{"level":"info","message":"3b5ef3e9-071c-4216-891a-16685206cdc5 GET /api/listusersPage/3/2 304 7.182 ms","timestamp":"2018-11-17T11:02:29.298Z"}
+{"level":"info","message":"a1adc93d-1468-4039-9417-ea694f13b1f4 GET /api/listusersPage/4/2 304 3.961 ms","timestamp":"2018-11-17T11:02:29.772Z"}
+{"level":"info","message":"f3e75456-ab76-411d-8c5f-9316497f5ac4 GET /api/listusersPage/3/2 304 7.994 ms","timestamp":"2018-11-17T11:02:35.474Z"}
+{"level":"info","message":"server is listening on port 3200","timestamp":"2018-11-17T11:07:39.195Z"}
+{"level":"info","message":"76df6d50-c51e-4506-8f83-750f03764348 GET /api/logout 304 9.670 ms","timestamp":"2018-11-17T11:07:58.567Z"}
+{"duration":"5ms","level":"info","message":"Login time","timestamp":"2018-11-17T11:08:12.300Z"}
+{"level":"info","message":"8bd22423-0ef8-4240-9f4f-b63e2e394643 POST /api/loginAdmin 200 65.885 ms","timestamp":"2018-11-17T11:08:12.360Z"}
+{"level":"info","message":"5dc1527b-bef6-4cdd-b5a5-5732b6c7044d GET /api/listusersPage/1/2 304 39.638 ms","timestamp":"2018-11-17T11:08:12.530Z"}
+{"level":"info","message":"9ec9ed08-c1bb-4c61-a449-940c0b0395b1 GET /api/listusersPage/2/2 304 7.067 ms","timestamp":"2018-11-17T11:08:14.963Z"}
+{"level":"info","message":"c1523bd8-cf96-4682-aedb-90a4d553b843 GET /api/listusersPage/3/2 304 10.872 ms","timestamp":"2018-11-17T11:08:15.808Z"}
+{"level":"info","message":"57bec580-3b29-4880-bf27-8b2236f614ce GET /api/listusersPage/4/2 304 16.095 ms","timestamp":"2018-11-17T11:08:16.624Z"}
+{"level":"info","message":"e5a1114a-1896-4ef0-88b2-cc4b0f28941b GET /api/listusersPage/1/2 304 14.221 ms","timestamp":"2018-11-17T11:08:18.298Z"}
+{"level":"info","message":"8a85fd4a-9cf9-4440-b5df-5ccef164a77e GET /api/listusersPage/4/2 304 14.817 ms","timestamp":"2018-11-17T11:08:19.554Z"}
+{"level":"info","message":"db33fafb-5f19-4f9d-8806-b1b776b495bd GET /api/listusersPage/1/2 304 18.590 ms","timestamp":"2018-11-17T11:08:20.696Z"}
+{"level":"info","message":"6f5022c0-6e5f-4a2d-9743-41206b860e13 GET /api/logout 304 0.814 ms","timestamp":"2018-11-17T11:09:09.004Z"}
+{"level":"info","message":"4f711a8b-7836-440d-a2c3-9919aafdec15 GET /api/listusersPage/1/2 304 13.620 ms","timestamp":"2018-11-17T11:09:09.027Z"}
+{"level":"info","message":"b9134dcf-bf35-477b-ba77-63bf16807bc5 GET /api/logout 304 0.775 ms","timestamp":"2018-11-17T11:09:39.400Z"}
+{"duration":"0ms","level":"info","message":"Login time","timestamp":"2018-11-17T11:09:39.415Z"}
+{"duration":"0ms","level":"info","message":"Login time","timestamp":"2018-11-17T11:09:39.417Z"}
+{"level":"info","message":"5393c1ff-9934-4ff0-bbd9-077a6c083cba POST /api/loginAdmin 200 21.960 ms","timestamp":"2018-11-17T11:09:39.441Z"}
+{"level":"info","message":"6119092d-4bbf-4de3-8a44-a30ea14bb87c POST /api/loginAdmin 200 1034.968 ms","timestamp":"2018-11-17T11:09:40.460Z"}
+{"level":"info","message":"fe84e914-7fab-4cb1-943a-1418fa16ed75 GET /api/listusersPage/1/2 304 26.417 ms","timestamp":"2018-11-17T11:09:40.470Z"}
+{"level":"info","message":"server is listening on port 3200","timestamp":"2018-11-17T11:09:47.362Z"}
+{"duration":"3ms","level":"info","message":"Login time","timestamp":"2018-11-17T11:09:57.644Z"}
+{"level":"info","message":"07ca7207-4fb9-410c-883e-dd06f3bcfb9a POST /api/loginAdmin 200 64.164 ms","timestamp":"2018-11-17T11:09:57.703Z"}
+{"level":"info","message":"5a288186-1bb2-4a16-878e-0074367d6ff3 GET /api/listusersPage/1/2 304 42.524 ms","timestamp":"2018-11-17T11:09:57.837Z"}
+{"level":"info","message":"35a8efee-613d-4446-bf3f-d8c352bceea7 GET /api/listusersPage/2/2 304 8.623 ms","timestamp":"2018-11-17T11:10:11.200Z"}
+{"level":"info","message":"13af5b0b-2a96-4163-be2e-e41e04770b07 GET /api/listusersPage/3/2 304 12.721 ms","timestamp":"2018-11-17T11:10:11.849Z"}
+{"level":"info","message":"1f9c86db-04de-4eee-b6b2-76c078dcddde GET /api/listusersPage/4/2 304 17.833 ms","timestamp":"2018-11-17T11:10:12.321Z"}
+{"level":"info","message":"71910710-2ed0-41be-b25a-21af5857b1fd GET /api/listusersPage/1/2 304 16.990 ms","timestamp":"2018-11-17T11:10:15.267Z"}
+{"level":"info","message":"97018284-2ba5-400c-8fe7-5437d4d095cf GET /api/logout 304 1.246 ms","timestamp":"2018-11-17T11:11:02.490Z"}
+{"duration":"0ms","level":"info","message":"Login time","timestamp":"2018-11-17T11:14:20.154Z"}
+{"level":"info","message":"b8359254-082c-48e5-b049-9b487eefb32a POST /api/loginAdmin 200 12.527 ms","timestamp":"2018-11-17T11:14:20.165Z"}
+{"level":"info","message":"63de2707-58ad-4f02-8c04-6eb7fa6b09f2 GET /api/listusersPage/1/2 304 22.549 ms","timestamp":"2018-11-17T11:14:20.230Z"}
+{"level":"info","message":"4d7718c3-ab14-4a18-b053-19d789891a69 GET /api/listusersPage/4/2 304 13.753 ms","timestamp":"2018-11-17T11:14:22.579Z"}
+{"level":"info","message":"496e5c42-b081-4f6a-af50-6ba671fce2f5 GET /api/listusersPage/1/2 304 13.924 ms","timestamp":"2018-11-17T11:15:01.150Z"}
+{"level":"info","message":"5f39a4fd-e29d-4e72-9fe3-b4ce10cd8d3a GET /api/listusersPage/4/2 304 14.077 ms","timestamp":"2018-11-17T11:15:12.881Z"}
+{"level":"info","message":"6dd8bea4-56f4-43bf-9ef7-16b864d40650 GET /api/listusersPage/1/2 304 17.741 ms","timestamp":"2018-11-17T11:15:15.169Z"}
+{"level":"info","message":"1545ac50-f067-4ed9-87aa-4f12f4c5d48d GET /api/listusersPage/4/2 304 12.904 ms","timestamp":"2018-11-17T11:15:18.178Z"}
+{"level":"info","message":"720a6410-1679-45b5-97ee-e37779c45c45 GET /api/listusersPage/3/2 304 11.442 ms","timestamp":"2018-11-17T11:15:41.126Z"}

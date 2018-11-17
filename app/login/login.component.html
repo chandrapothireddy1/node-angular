@@ -1,0 +1,46 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 logo">
+            <img src="/assets/images/logo1.png" alt="polepalli-logo" />
+        </div>
+        <div class="col-md-6 inpt-lgn">
+
+
+            <form role="form" id="loginform1" name="loginform1" #loginForm="ngForm" >
+
+                <label for="loginusername1" class="hidden-lable">email</label> 
+                
+                <input type="username" class="user_name" placeholder="User Id/Mobile" name="username1" id="loginusername1" [(ngModel)]="user.username" /> &nbsp;
+                
+                <label for="loginpassword1" class="hidden-lable">password</label> 
+                
+                <input type="password" placeholder="Password" id="loginpassword1" class="user_password" name="password1" [(ngModel)]="user.password" />
+                <button type="submit" class="btn btn-default home-page-btn sbmt-inpt" id="loginbutton1" (click)="login()">SIGN
+                    IN</button>
+
+                <div class="frgt-remb">
+                    <div class="form-group checkbox remember-input">
+                        <label class="chxboxlogin1"><input type="checkbox" id="rememberme1" name="remember-me" /> Remember me </label>
+                    </div>
+                    <div class="forgot-pass" data-toggle="modal" data-target="#myForgotPassword">
+                        <a class="forgot" href="#">Forgot Password ?</a>
+                    </div>
+                </div>
+
+            </form>
+
+            <div class="error_div">
+                <!-- <span id="validemail1" class="error-span" hidden="true">Please check the e-mail ID and Password</span> -->
+                <span id="verification1" class="error-span" hidden="true">Please
+                    check the e-mail ID and Password</span> <span id="delete1" class="error-span" hidden="true"> Profile has been deleted</span>
+                <span id="anotherUser" class="error-span" hidden="true">
+                    Other user logged in</span>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+</div>

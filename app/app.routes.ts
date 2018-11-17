@@ -1,12 +1,7 @@
-import { ClientsComponent } from './clients.component';
-import { HomeComponent } from "./home.component";
-import { ContactComponent } from "./contact.component";
-import { LoginComponent } from './login.component';
+import { PageComponent } from './page.component';
+import { DashboardComponent } from "./dashboard.component";
 
-export const routes=[
-    {path:"home",component:HomeComponent},
-    {path:"contact",component:ContactComponent},
-    {path:"clients",component:ClientsComponent},
-    {path:"login",component:LoginComponent},
-    {path:"",component:HomeComponent}
+export const routes = [
+    {path:"dashboard",component:DashboardComponent},
+    {path:"",component:PageComponent}
 ]

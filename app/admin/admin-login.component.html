@@ -1,0 +1,13 @@
+{{msg}}
+<form novalidate #adminloginForm = "ngForm">
+    <fieldset>
+        <pre>
+     Username: <input type ="text" name="UserId" #UserId="ngModel" required [(ngModel)]="user.username"/><br>
+     
+     Password: <input type ="password" name="pwdId" #pwdId="ngModel" required [(ngModel)]="user.password"/><br>
+     
+      <input type="submit" value="Login" (click)="login()"/>
+      </pre>
+
+    </fieldset>
+  </form>
