@@ -1,0 +1,17 @@
+<menu></menu>
+<form novalidate #userForm = "ngForm">
+    <fieldset>
+        <pre>
+     Username: <input type ="text" name="UserId" #UserId="ngModel" required [(ngModel)]="user.username"/><br>
+     <span style=color:red *ngIf= "UserId.touched && UserId.invalid">
+     <span *ngIf= "UserId.errors && UserId.errors.required">please provide username/phonenumber</span>
+     </span>
+     Password: <input type ="password" name="pwdId" #pwdId="ngModel" required [(ngModel)]="user.password"/><br>
+     <span style=color:red *ngIf= "pwdId.touched && pwdId.invalid">
+     <span *ngIf= "pwdId.errors && pwdId.errors.required">please provide password</span>
+     </span>
+      <input type="submit" value="Login" (click)="login()"/>
+      </pre>
+
+    </fieldset>
+  </form>
