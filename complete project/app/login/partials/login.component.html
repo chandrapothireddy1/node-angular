@@ -1,0 +1,9 @@
+<menu></menu>
+<form novalidate #loginForm="ngForm">
+    <label>Username</label>
+    <input type="text" name="uname" [(ngModel)]="user.username" />
+    <label>Password</label>
+    <input type="password" name="pwd" [(ngModel)]="user.password" />
+    <button (click)="login()">Login</button>
+
+</form>

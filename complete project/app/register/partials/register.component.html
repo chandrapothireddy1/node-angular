@@ -1,0 +1,13 @@
+<menu></menu>
+<form novalidate #registerForm="ngForm">
+    <label>FirstName</label>
+    <input type="text" disableInput="chandra,pothireddy" name="firstname" [(ngModel)]="user.fname" />
+    <label>LastName</label>
+    <input type="text" name="lastname" [(ngModel)]="user.lname" />
+    <label>Username</label>
+    <input type="text" name="uname" [(ngModel)]="user.username" />
+    <label>Password</label>
+    <input type="password" name="pwd" [(ngModel)]="user.password" />
+    <button (click)="register()">Register</button>
+
+</form>

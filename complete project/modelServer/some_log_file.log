@@ -1,0 +1,62 @@
+{"level":"info","message":"server is listening on port 3200","timestamp":"2018-12-23T15:07:20.550Z"}
+{"duration":"4ms","level":"info","message":"Login time","timestamp":"2018-12-23T15:07:37.499Z"}
+{"level":"info","message":"be04f1bb-ab2e-4a39-bf16-779fff8780bd POST /api/loginUser 200 32.923 ms","timestamp":"2018-12-23T15:07:37.531Z"}
+{"level":"info","message":"50b5e5d1-81dd-4562-822c-0e0d3d8c8584 GET /api/listusers 200 7.030 ms","timestamp":"2018-12-23T15:07:37.571Z"}
+{"duration":"0ms","level":"info","message":"Login time","timestamp":"2018-12-23T16:39:06.260Z"}
+{"level":"info","message":"81a23882-8eea-4de4-b633-efb7f4559bd4 POST /api/loginUser 200 29.872 ms","timestamp":"2018-12-23T16:39:06.287Z"}
+{"level":"info","message":"41907635-8a74-4727-abc0-b0f63520bb8b GET /api/listusers 304 4.475 ms","timestamp":"2018-12-23T16:39:06.320Z"}
+{"level":"info","message":"74c24c8a-4fee-428a-a989-ca8fdad0e951 GET /userList 404 2.666 ms","timestamp":"2018-12-23T16:40:42.242Z"}
+{"duration":"1ms","level":"info","message":"Login time","timestamp":"2018-12-23T16:40:56.798Z"}
+{"level":"info","message":"6dcb4b3e-26c1-4f9c-a1a2-20f3482d451f POST /api/loginUser 200 36.033 ms","timestamp":"2018-12-23T16:40:56.834Z"}
+{"level":"info","message":"ccfaade7-7707-45e1-aa95-5dc431634e9f GET /api/listusers 304 4.077 ms","timestamp":"2018-12-23T16:40:56.869Z"}
+{"level":"info","message":"db83e313-f98b-4ce5-974f-5ec40570bb52 GET /api/editUser/5c1f9e3ffea61c0b38aeb999 200 7.274 ms","timestamp":"2018-12-23T16:40:58.303Z"}
+{"duration":"0ms","level":"info","message":"Login time","timestamp":"2018-12-23T16:49:23.368Z"}
+{"level":"info","message":"29f89a20-8afc-4505-941d-2f2b87c15bd4 POST /api/loginUser 200 3.315 ms","timestamp":"2018-12-23T16:49:23.371Z"}
+{"level":"info","message":"77475162-4738-4216-bb3e-392df6603989 GET /api/listusers 304 2.658 ms","timestamp":"2018-12-23T16:49:23.399Z"}
+{"level":"info","message":"1845c32f-7c50-42af-9be3-864b162767c3 GET /api/editUser/5c1f9e3ffea61c0b38aeb999 304 2.190 ms","timestamp":"2018-12-23T16:49:24.481Z"}
+{"level":"info","message":"5321a7d8-d2fe-4e25-a094-9834000fb24e PUT /api/updateUser 200 32.309 ms","timestamp":"2018-12-23T17:00:56.054Z"}
+{"level":"info","message":"ab4f1031-45a9-4b1d-887b-8cd3495d644c GET /api/listusers 304 3.116 ms","timestamp":"2018-12-23T17:00:56.078Z"}
+{"level":"info","message":"8f80322a-b52e-43e0-a355-925306d3e1d7 POST /api/registerUser - - ms","timestamp":"2018-12-23T17:04:05.041Z"}
+{"level":"info","message":"server is listening on port 3200","timestamp":"2018-12-23T17:04:12.819Z"}
+{"level":"info","message":"6c9fd11b-b617-4922-bdbe-4851d6a3a577 POST /api/registerUser - - ms","timestamp":"2018-12-23T17:06:26.241Z"}
+{"level":"info","message":"f7b1723a-1618-48dd-a500-80d168404fa9 POST /api/registerUser 200 10.572 ms","timestamp":"2018-12-23T17:06:55.838Z"}
+{"duration":"5ms","level":"info","message":"Login time","timestamp":"2018-12-23T17:06:59.947Z"}
+{"level":"info","message":"f7f98898-1c36-4e90-be59-940d92a88c59 POST /api/loginUser 200 38.603 ms","timestamp":"2018-12-23T17:06:59.982Z"}
+{"level":"info","message":"bd64cebb-7375-4550-afb0-8e388de30c35 GET /api/listusers 200 12.812 ms","timestamp":"2018-12-23T17:07:00.034Z"}
+{"level":"info","message":"b8b67b4b-9cc7-4ba6-9106-d9b0250196ef GET /api/editUser/5c1fc0af661af72c28885493 200 6.079 ms","timestamp":"2018-12-23T17:07:03.123Z"}
+{"level":"info","message":"a9a33dff-fcf9-4086-bc73-13ebbd1f7a40 PUT /api/updateUser 200 208.194 ms","timestamp":"2018-12-23T17:07:06.376Z"}
+{"level":"info","message":"fdcaa006-1c9a-46cc-a474-bee80c71fd14 GET /api/listusers 200 2.285 ms","timestamp":"2018-12-23T17:07:06.450Z"}
+{"level":"info","message":"49070074-d778-4421-a4f0-bbec083325d3 GET /api/editUser/5c1f9e3ffea61c0b38aeb999 304 3.940 ms","timestamp":"2018-12-23T17:07:08.894Z"}
+{"level":"info","message":"2de87f97-30e4-40f0-9b18-8907cedde450 PUT /api/updateUser 200 7.664 ms","timestamp":"2018-12-23T17:07:11.082Z"}
+{"level":"info","message":"96fc6293-4229-4800-9958-8f23551b655a GET /api/listusers 200 4.177 ms","timestamp":"2018-12-23T17:07:11.111Z"}
+{"duration":"1ms","level":"info","message":"Login time","timestamp":"2018-12-23T17:07:52.236Z"}
+{"level":"info","message":"2e9ca9c8-3616-4619-90da-ed4f1812d43f POST /api/loginUser 200 8.585 ms","timestamp":"2018-12-23T17:07:52.247Z"}
+{"level":"info","message":"a254cd39-09be-4c7b-9573-b003142374f1 GET /api/listusers 304 4.348 ms","timestamp":"2018-12-23T17:07:52.281Z"}
+{"level":"info","message":"0c917761-6b80-43cd-87e9-41444a1dda3c GET /register 404 3.408 ms","timestamp":"2018-12-23T17:10:21.527Z"}
+{"level":"info","message":"bd8df4c8-d0c5-4ca8-8248-163009c99bde POST /api/registerUser 200 2.276 ms","timestamp":"2018-12-23T17:10:42.196Z"}
+{"duration":"0ms","level":"info","message":"Login time","timestamp":"2018-12-23T17:10:45.208Z"}
+{"level":"info","message":"c5f197f4-446a-48d9-854b-0fc0e509fe91 POST /api/loginUser 200 8.235 ms","timestamp":"2018-12-23T17:10:45.214Z"}
+{"level":"info","message":"82d062b8-4aea-4a3a-9435-ef1cd6d3596f GET /api/listusers 200 10.525 ms","timestamp":"2018-12-23T17:10:45.261Z"}
+{"level":"info","message":"168098ab-2ad5-405c-b263-f4910ff6ac06 GET /api/editUser/5c1fc192661af72c28885494 200 3.131 ms","timestamp":"2018-12-23T17:10:46.908Z"}
+{"level":"info","message":"f95a4ac7-2962-4189-a517-e14d80a393cb PUT /api/updateUser 200 5.783 ms","timestamp":"2018-12-23T17:10:50.611Z"}
+{"level":"info","message":"b9211c64-11cc-4598-b888-7c3778b13378 GET /api/listusers 200 5.318 ms","timestamp":"2018-12-23T17:10:50.637Z"}
+{"level":"info","message":"43f2e0f2-b988-4cf4-85c7-8ba8cfdb8923 GET /login 404 2.809 ms","timestamp":"2018-12-23T17:27:43.517Z"}
+{"level":"info","message":"e06c046f-921e-402e-be26-8b2661b4662a GET /login 404 0.360 ms","timestamp":"2018-12-23T17:32:05.173Z"}
+{"level":"info","message":"fc380f99-beac-4b26-aec9-f4a231098741 POST /api/registerUser 200 4.153 ms","timestamp":"2018-12-23T17:32:23.633Z"}
+{"duration":"0ms","level":"info","message":"Login time","timestamp":"2018-12-24T02:59:03.278Z"}
+{"level":"info","message":"45fe5e3c-dbef-4c87-8971-cc785ec5af53 POST /api/loginUser 200 7.097 ms","timestamp":"2018-12-24T02:59:03.284Z"}
+{"level":"info","message":"b83bd378-e0ba-4bad-a3e5-253bdd64d233 GET /api/listusers 304 2.845 ms","timestamp":"2018-12-24T02:59:03.332Z"}
+{"level":"info","message":"server is listening on port 3200","timestamp":"2018-12-24T03:07:41.355Z"}
+{"duration":"4ms","level":"info","message":"Login time","timestamp":"2018-12-24T03:08:59.316Z"}
+{"level":"info","message":"301f0b80-e9d0-41f1-a0fd-e8ed03e8bea1 POST /api/loginUser 200 37.087 ms","timestamp":"2018-12-24T03:08:59.350Z"}
+{"level":"info","message":"75859850-bb9a-4951-947c-618e5e7c1b98 GET /api/listusers 401 3.513 ms","timestamp":"2018-12-24T03:08:59.398Z"}
+{"duration":"1ms","level":"info","message":"Login time","timestamp":"2018-12-24T03:11:43.662Z"}
+{"level":"info","message":"fb7adf9f-fba1-4260-879c-7da2af80ddb3 POST /api/loginUser 200 9.180 ms","timestamp":"2018-12-24T03:11:43.666Z"}
+{"level":"info","message":"8a67f84c-c34e-49c5-9790-2dbb3d4ed45f GET /api/listusers 401 1.935 ms","timestamp":"2018-12-24T03:11:43.703Z"}
+{"duration":"0ms","level":"info","message":"Login time","timestamp":"2018-12-24T03:13:59.703Z"}
+{"level":"info","message":"fd56ebd6-0ad8-44fe-afc4-c23249e0efb7 POST /api/loginUser 200 3.503 ms","timestamp":"2018-12-24T03:13:59.706Z"}
+{"level":"info","message":"cd65baad-7c26-4899-8e11-2e2d96c0307b GET /api/listusers 401 4.473 ms","timestamp":"2018-12-24T03:13:59.733Z"}
+{"level":"info","message":"server is listening on port 3200","timestamp":"2018-12-24T03:14:14.242Z"}
+{"duration":"2ms","level":"info","message":"Login time","timestamp":"2018-12-24T03:14:23.847Z"}
+{"level":"info","message":"7ed80cfe-2088-4647-9c32-e30f413b275c POST /api/loginUser 200 37.662 ms","timestamp":"2018-12-24T03:14:23.883Z"}
+{"level":"info","message":"5020793c-b521-4e70-86ed-5802b90b7011 GET /api/listusers 304 9.796 ms","timestamp":"2018-12-24T03:14:23.949Z"}

@@ -1,0 +1,11 @@
+<menu></menu>
+<form novalidate #updateForm="ngForm">
+    <label>FirstName</label>
+    <input type="text" name="firstname" [(ngModel)]="user.fname" />
+    <label>LastName</label>
+    <input type="text" name="lastname" [(ngModel)]="user.lname" />
+    <label>Username</label>
+    <input type="text" name="uname" [(ngModel)]="user.username" />
+    <button (click)="update()">Update</button>
+
+</form>
