@@ -1,0 +1,119 @@
+Install Angular6:
+-----------------
+npm install -g @angular/cli
+
+Uses of cli:
+------------
+1. We can create a project
+2. we can deploy a project
+3. we can use multiple build options
+4. we can generate all angular features(components,services,pipes & directives)
+
+Create Project:
+---------------
+1. ng new <project-name>
+2. ng serve->deploy project into local server
+3. ng build -> create distribution folder for building
+		1. dev
+		2. prod
+4. ng g -> generate different angular features.
+5. ng build --prod 
+
+Other angular commands:
+-----------------------
+->ng e2e->run all testcases one by one
+->jasmine framework will used to work with testcases.
+--Oat:ahead of the time compilation.
+jit:just in time
+
+ng test <testcase name>  to run individual test case
+
+ng Xi18n: to generate j18n file for project(International languages)
+
+
+@Injectable()
+class UserService{
+//logic
+}
+
+to generate service use following command
+
+ng generate service <service-name>
+
+
+@Directive()
+class EmailDirective{
+//logic
+}
+
+to generate directive
+
+ng generate directive <directive-name>
+
+
+Pipes:
+------
+pipes are used to configure formatting the data in the application.
+
+EX:date,number,sort,search.... etc
+
+@Pipe()
+class BrandPipe{
+//logic
+}
+
+genarate pipe:
+-----
+ng genarate pipe <pipe-name>
+
+Modules:
+--------
+Modules acts as container for all angular features
+
+->Components,directives,pipe and services should register with the module.
+
+@NgModule()
+class UserModule{
+//logic
+}
+
+ng generate module <module-name>
+
+IDE-SETUP:
+----------
+
+Visual studio code editor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

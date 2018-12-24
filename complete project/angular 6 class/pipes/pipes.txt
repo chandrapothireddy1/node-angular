@@ -1,0 +1,39 @@
+Angular-js filters:
+-------------------
+myApp.filter("capitalize",function(){
+        return function(input){
+            
+            return (input)? input.charAt(0).toUpperCase()+input.substr(1).toLowerCase():"";
+        }
+    });
+
+
+Angular-pipes:
+--------------
+Built-In Pipes:
+---------------
+1. uppercase: converts string data into capital letters.
+2. lowercase: converts string data into lower case.
+3. currency
+4. date
+5. json
+6.slice
+7. number
+8. percent
+9. async
+10. i18n(Internalization)
+
+//capital.pipe.ts
+import { Pipe, PipeTransform } from '@angular/core';
+
+@Pipe({
+    name: 'capital'
+})
+
+export class CapitalPipe implements PipeTransform {
+    transform(value: string): any {
+        return value.charAt(0).toUpperCase()+value.substr(1).toLowerCase()
+    }
+}
+
+//app.module.ts should make entry in declarations.

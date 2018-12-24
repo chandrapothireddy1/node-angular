@@ -1,0 +1,40 @@
+1. access based states
+	
+	touched:User access the field
+	untouched: user didn't access the filed
+	
+2. value based states
+
+	pristine: user didn't modify the field
+	dirty: user modifies the value.
+	
+3. validation based states
+
+	valid: all validations were success.
+	invalid: atleast one validation failed.
+	
+->If one validation failed,invalid becomes true as well as many validation failed also invalid becomes true.
+
+->to get precise information we use errors object.
+
+Error Object have 4 properties:
+-------------------------------
+required
+minlength
+maxlength
+pattern
+
+->To get specific error messages we use ngForm and ngModel configurations for our forms and input tags.
+
+->This formGroup and formControl objects are assigned to template reference variables.
+
+
+
+
+
+
+
+
+
+	
+	

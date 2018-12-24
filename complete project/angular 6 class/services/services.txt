@@ -1,0 +1,45 @@
+In angular we can manage the element attributes using angular expressions.
+
+<input type="text" name="message" [value]="data" />
+<img [src]="imgUrl" />
+<a [href]="link"></a>
+
+Configuring DI in angular:
+--------------------------
+1. create a service
+
+@Injectable()
+class A{}
+
+2. Register service in a module or component as provider.
+
+@NgModule({
+	providers:[A],
+	})
+	class AppModule{}
+	
+3. declare the the dependency in constructor of component or directive.
+
+	class UseListComponent{
+		constructor(private a1:A){}//single service
+	}
+	
+	class UserListComponent{
+		constructor(private a1:A,private a2:B){}//multiple services
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

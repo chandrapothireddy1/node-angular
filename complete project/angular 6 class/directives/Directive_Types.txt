@@ -1,0 +1,133 @@
+﻿Directives overview
+--------------------
+There are three kinds of directives in Angular:
+
+Components—directives with a template.
+Structural directives—change the DOM layout by adding and removing DOM elements.
+Attribute directives—change the appearance or behavior of an element, component, or another directive.
+
+
+
+
+
+1. Structural Directives:
+-------------------------
+Structural Directives change the structure of the view. Two examples are NgFor and NgIf.
+The ngIf structural directive changes the DOM for us.
+
+
+
+
+
+
+
+example:
+--------
+<div *ngIf="hero" class="name">{{hero}}</div> 
+
+let's talk about that asterisk syntax. 
+
+The asterisk is what is referred to as syntactic sugar. Syntactic sugar is a shorthand pattern for writing something that the platform will interpret and convert to the actual syntax. Structural directives work with ng-template elements to modify the DOM.
+
+A structural directive placed on an element named ng-template will handle either rendering or not rendering the inner children of that template element in place of the ng-template element itself. 
+
+the above one we can replace like:
+
+<ng-template [ngIf]="hero">
+  {{name}}
+
+</ng-template>
+
+2. Attribute Directives:
+------------------------
+Attribute directives are designed to change the appearance or behavior of the DOM elements that they are attached to. They do not create or remove DOM elements like structural directives. 
+
+
+
+
+
+
+example:
+--------
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent {
+  title = 'app';
+  hero:boolean = true;
+  name:string = "chandra";
+  isSpecial:boolean = false;
+  currentClasses = {};
+  setCurrentClass(clsname){
+    this.currentClasses = clsname;
+  }
+}
+
+//app.component.html:
+------------
+<div>
+<p [ngClass]="currentClasses">{{name}}</p>
+
+<button (click)="setCurrentClass('red')">Red</button>
+<button (click)="setCurrentClass('green')">Green</button>
+</div>
+
+
+<button [style.background-color]="isSpecial ? 'red': 'yellow'">Red</button>
+
+
+
+ngIf
+ngFor
+ngIf else
+ngSwitch
+ngSwitchCase
+ngSwitchDefault
+ngStyle
+ngClass
+
+custom directives:
+----------------
+import { Directive, Input, HostListener, ElementRef } from '@angular/core';
+
+
+@Directive({ selector: '[disableInput]' })
+export class DisableInputDirective {
+    constructor(private element:ElementRef) { }
+
+    @Input("disableInput")
+    blockedWords:string;
+
+
+
+    @HostListener("blur") m1(){
+        var value = this.element.nativeElement.value;
+        console.log(this.blockedWords);
+
+        var badWords = this.blockedWords.split(',');
+
+        for(var i=0;i<badWords.length;i++){
+            if(value ==badWords[i] ){
+                alert("dont allow this value");
+            this.element.nativeElement.value = "";
+            }
+        }
+
+        
+    }
+
+}
+
+
+
+//in html
+ <input type="text" name="firstname" disableInput="chandra,babu,pothireddy" #firstname = "ngModel" required [(ngModel)]="user.fname"><br>
+
+
+
+
+
