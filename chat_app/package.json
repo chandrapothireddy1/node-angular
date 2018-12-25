@@ -1,0 +1,15 @@
+{
+  "name": "cls",
+  "version": "1.0.0",
+  "description": "simple chat app using node ",
+  "main": "server.js",
+  "scripts": {
+    "test": "cls"
+  },
+  "author": "Chandra Pothireddy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "*",
+    "socket.io": "^2.1.1"
+  }
+}
